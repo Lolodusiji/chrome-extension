@@ -1,0 +1,14 @@
+{
+    "name": "HelpMeOut",
+    "description": "My first Chrome App.",
+    "version": "0.1",
+    "manifest_version": 2,
+    "page_action": {
+        "default_popup": "popup.html"
+      },
+    "app": {
+      "background": {
+        "scripts": ["background.js"]
+      }
+    }
+  }
